@@ -8,10 +8,12 @@ import {
 } from "react-native";
 import { Button, PaperProvider, Text } from "react-native-paper";
 import { students } from "../assets/db/StudentsDb";
+import { useNavigation } from "@react-navigation/native";
 
 export default function StudentList() {
   const [fstudents, setFstudents] = useState(students);
   const [rerender, setRerender] = useState(false);
+  const navigator = useNavigation();
   return (
     <PaperProvider>
       <FlatList
@@ -19,7 +21,10 @@ export default function StudentList() {
         keyExtractor={(item) => item.id}
         extraData={rerender}
         renderItem={({ item }) => (
-          <TouchableOpacity style={styles.card}>
+          <TouchableOpacity
+            style={styles.card}
+            onPress={() => navigator.navigate("Profile", { user: item })}
+          >
             <Image source={item.profile_pic} style={styles.image} />
             <Text style={styles.name}>{item.name}</Text>
           </TouchableOpacity>
