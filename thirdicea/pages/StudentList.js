@@ -35,6 +35,7 @@ export default function StudentList() {
           mode="contained"
           style={styles.addbutton}
           contentStyle={styles.content}
+          onPress={() => navigator.navigate("addStudent")}
         >
           +
         </Button>
