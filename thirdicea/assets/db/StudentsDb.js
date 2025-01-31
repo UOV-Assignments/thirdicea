@@ -5,7 +5,7 @@ export const students = [
     gender: "Male",
     course_name: "ICT",
     id: "2020-ICT-09",
-    profile_pic: require("../assets/profilepic/9.jpg"),
+    profile_pic: require("../profilepic/9.jpg"),
   },
   {
     name: "Julia Davis",
@@ -13,7 +13,7 @@ export const students = [
     gender: "Female",
     course_name: "CSE",
     id: "2020-CSE-10",
-    profile_pic: require("../assets/profilepic/10.jpg"),
+    profile_pic: require("../profilepic/10.jpg"),
   },
   {
     name: "Kevin Morris",
@@ -21,7 +21,7 @@ export const students = [
     gender: "Male",
     course_name: "ECE",
     id: "2020-ECE-11",
-    profile_pic: require("../assets/profilepic/11.jpg"),
+    profile_pic: require("../profilepic/11.jpg"),
   },
   {
     name: "Lila Turner",
@@ -29,7 +29,7 @@ export const students = [
     gender: "Female",
     course_name: "EEE",
     id: "2020-EEE-12",
-    profile_pic: require("../assets/profilepic/12.jpg"),
+    profile_pic: require("../profilepic/12.jpg"),
   },
   {
     name: "Mason Clark",
@@ -37,7 +37,7 @@ export const students = [
     gender: "Male",
     course_name: "ICT",
     id: "2020-ICT-13",
-    profile_pic: require("../assets/profilepic/13.jpg"),
+    profile_pic: require("../profilepic/13.jpg"),
   },
   {
     name: "Nina Edwards",
@@ -45,7 +45,7 @@ export const students = [
     gender: "Female",
     course_name: "ECE",
     id: "2020-ECE-14",
-    profile_pic: require("../assets/profilepic/14.jpg"),
+    profile_pic: require("../profilepic/14.jpg"),
   },
   {
     name: "Oliver Scott",
@@ -53,7 +53,7 @@ export const students = [
     gender: "Male",
     course_name: "EEE",
     id: "2020-EEE-15",
-    profile_pic: require("../assets/profilepic/15.jpg"),
+    profile_pic: require("../profilepic/15.jpg"),
   },
   {
     name: "Paula White",
@@ -61,7 +61,7 @@ export const students = [
     gender: "Female",
     course_name: "CSE",
     id: "2020-CSE-16",
-    profile_pic: require("../assets/profilepic/16.jpg"),
+    profile_pic: require("../profilepic/16.jpg"),
   },
   {
     name: "Quinn Walker",
@@ -69,7 +69,7 @@ export const students = [
     gender: "Male",
     course_name: "CSE",
     id: "2020-CSE-17",
-    profile_pic: require("../assets/profilepic/17.jpg"),
+    profile_pic: require("../profilepic/17.jpg"),
   },
   {
     name: "Rachel Young",
@@ -77,7 +77,7 @@ export const students = [
     gender: "Female",
     course_name: "ICT",
     id: "2020-ICT-18",
-    profile_pic: require("../assets/profilepic/18.jpg"),
+    profile_pic: require("../profilepic/18.jpg"),
   },
 ];
 
